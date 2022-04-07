@@ -1,0 +1,176 @@
+body, section, article, main, aside, footer, img, nav, ul, li, a, h1, h2, h3, div, p, figure, figcaption {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 100%;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: 16px;
+    background-color: #121214;  
+}
+
+ol, ul {
+    list-style: none;
+}
+
+figure {
+    width: 229px;
+    height: 68px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.logoflix {
+    display: flex;
+    margin: 0 auto;
+}
+
+.who {
+    padding-top: 50px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    margin-top: 30px;
+
+}
+
+section {
+    width: 700px;
+    margin: 0 auto;
+}
+
+section ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+section ul .perfil1 {
+    width: 160px;
+    height: 160px;
+    margin-top: 80px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.perfil1:hover {
+    border: ghostwhite solid 2px;
+}
+
+section ul .perfil1 .perfil1_avatar {
+    border-radius: 10px;
+    max-width: 160px;
+    max-height: 160px;
+    transition: .4s;
+}
+
+section ul .perfil1 .perfil1_avatar:hover {
+    transform: scale(1.2);
+    border: ghostwhite solid 1px;
+}
+
+.perfil1_nome{
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 25px;
+    margin-top: 15px;
+    opacity: 60%;
+}
+
+.perfil1nome:hover {
+    opacity: 100%;
+}
+
+section ul .perfil2 {
+    width: 160px;
+    height: 160px;
+    margin-top: 80px;
+    overflow: hidden;
+    border-radius: 10px;
+    border: dimgray solid 3px;
+    opacity: 50%;
+    transition: .4s;
+}
+
+section ul .perfil2 .perfil2_avatar {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 46.5px;
+    padding-bottom: 46.5px;
+
+}
+
+.perfil2:hover {
+    opacity: 100%;
+}
+
+.perfil2_nome {
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 8px;
+    opacity: 60%;
+    transition: .4s;
+}
+
+.perfil2_nome:hover {
+    opacity: 100%;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 835px;
+    margin-right: 835px;
+    margin-top: 200px;
+    width: 250px;
+    height: 50px;
+    text-align: justify;
+    background-color: #121214;
+    color: ghostwhite;
+    border: ghostwhite solid 3px;
+    border-radius: 10px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    opacity: 50%;
+    transition: .4s;
+}
+
+button:hover {
+    background-color: ghostwhite;
+    color: #121214;
+    border: #121214 solid 3px;
+    border-radius: 10px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    opacity: 100%;
+}
+
+
+
+
+
+
